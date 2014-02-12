@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Serial reader",
+  "description": "This extension saves skin conductivity average for each page",
+  "version": "1.0",
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "background": {
+    "scripts": ["jquery.js", "background.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "favicon.png",
+    "default_popup": "popup.html"
+  }
+}
